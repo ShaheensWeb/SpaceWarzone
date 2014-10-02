@@ -21,6 +21,16 @@
 		4A7FCA2419BB763E002F1327 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7FCA0619BB763E002F1327 /* UIKit.framework */; };
 		4A7FCA2C19BB763E002F1327 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA2A19BB763E002F1327 /* InfoPlist.strings */; };
 		4A7FCA2E19BB763E002F1327 /* Space_WarzoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FCA2D19BB763E002F1327 /* Space_WarzoneTests.m */; };
+		4A7FCA4419BB77D4002F1327 /* space-invaders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4319BB77D4002F1327 /* space-invaders.jpg */; };
+		4A7FCA4B19BB7803002F1327 /* BlueAlien.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4519BB7803002F1327 /* BlueAlien.png */; };
+		4A7FCA4C19BB7803002F1327 /* Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4619BB7803002F1327 /* Bullet.png */; };
+		4A7FCA4D19BB7803002F1327 /* GreenMonser.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4719BB7803002F1327 /* GreenMonser.png */; };
+		4A7FCA4F19BB7803002F1327 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4919BB7803002F1327 /* Ship.png */; };
+		4A7FCA5019BB7803002F1327 /* YellowMonster.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA4A19BB7803002F1327 /* YellowMonster.png */; };
+		4A7FCA5219BB7911002F1327 /* backgroundimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA5119BB7911002F1327 /* backgroundimg.jpg */; };
+		4A7FCA5419BB7AF9002F1327 /* backgroundimg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA5319BB7AF9002F1327 /* backgroundimg.jpeg */; };
+		4A7FCA5619BB7B6F002F1327 /* backgroundimg1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4A7FCA5519BB7B6F002F1327 /* backgroundimg1.jpg */; };
+		4A7FCA5919BB7EA9002F1327 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7FCA5819BB7EA9002F1327 /* Game.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,17 @@
 		4A7FCA2919BB763E002F1327 /* Space WarzoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Space WarzoneTests-Info.plist"; sourceTree = "<group>"; };
 		4A7FCA2B19BB763E002F1327 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4A7FCA2D19BB763E002F1327 /* Space_WarzoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_WarzoneTests.m; sourceTree = "<group>"; };
+		4A7FCA4319BB77D4002F1327 /* space-invaders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "space-invaders.jpg"; sourceTree = "<group>"; };
+		4A7FCA4519BB7803002F1327 /* BlueAlien.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueAlien.png; sourceTree = "<group>"; };
+		4A7FCA4619BB7803002F1327 /* Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullet.png; sourceTree = "<group>"; };
+		4A7FCA4719BB7803002F1327 /* GreenMonser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenMonser.png; sourceTree = "<group>"; };
+		4A7FCA4919BB7803002F1327 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		4A7FCA4A19BB7803002F1327 /* YellowMonster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowMonster.png; sourceTree = "<group>"; };
+		4A7FCA5119BB7911002F1327 /* backgroundimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundimg.jpg; sourceTree = "<group>"; };
+		4A7FCA5319BB7AF9002F1327 /* backgroundimg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundimg.jpeg; sourceTree = "<group>"; };
+		4A7FCA5519BB7B6F002F1327 /* backgroundimg1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backgroundimg1.jpg; sourceTree = "<group>"; };
+		4A7FCA5719BB7EA9002F1327 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = ../Game.h; sourceTree = "<group>"; };
+		4A7FCA5819BB7EA9002F1327 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Game.m; path = ../Game.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +138,8 @@
 				4A7FCA1419BB763E002F1327 /* Main.storyboard */,
 				4A7FCA1719BB763E002F1327 /* ViewController.h */,
 				4A7FCA1819BB763E002F1327 /* ViewController.m */,
+				4A7FCA5719BB7EA9002F1327 /* Game.h */,
+				4A7FCA5819BB7EA9002F1327 /* Game.m */,
 				4A7FCA1A19BB763E002F1327 /* Images.xcassets */,
 				4A7FCA0919BB763E002F1327 /* Supporting Files */,
 			);
@@ -126,6 +149,15 @@
 		4A7FCA0919BB763E002F1327 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A7FCA5519BB7B6F002F1327 /* backgroundimg1.jpg */,
+				4A7FCA5319BB7AF9002F1327 /* backgroundimg.jpeg */,
+				4A7FCA5119BB7911002F1327 /* backgroundimg.jpg */,
+				4A7FCA4519BB7803002F1327 /* BlueAlien.png */,
+				4A7FCA4619BB7803002F1327 /* Bullet.png */,
+				4A7FCA4719BB7803002F1327 /* GreenMonser.png */,
+				4A7FCA4919BB7803002F1327 /* Ship.png */,
+				4A7FCA4A19BB7803002F1327 /* YellowMonster.png */,
+				4A7FCA4319BB77D4002F1327 /* space-invaders.jpg */,
 				4A7FCA0A19BB763E002F1327 /* Space Warzone-Info.plist */,
 				4A7FCA0B19BB763E002F1327 /* InfoPlist.strings */,
 				4A7FCA0E19BB763E002F1327 /* main.m */,
@@ -228,7 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A7FCA4F19BB7803002F1327 /* Ship.png in Resources */,
+				4A7FCA4D19BB7803002F1327 /* GreenMonser.png in Resources */,
+				4A7FCA4419BB77D4002F1327 /* space-invaders.jpg in Resources */,
+				4A7FCA5619BB7B6F002F1327 /* backgroundimg1.jpg in Resources */,
+				4A7FCA5019BB7803002F1327 /* YellowMonster.png in Resources */,
+				4A7FCA4C19BB7803002F1327 /* Bullet.png in Resources */,
+				4A7FCA5219BB7911002F1327 /* backgroundimg.jpg in Resources */,
 				4A7FCA1B19BB763E002F1327 /* Images.xcassets in Resources */,
+				4A7FCA4B19BB7803002F1327 /* BlueAlien.png in Resources */,
+				4A7FCA5419BB7AF9002F1327 /* backgroundimg.jpeg in Resources */,
 				4A7FCA0D19BB763E002F1327 /* InfoPlist.strings in Resources */,
 				4A7FCA1619BB763E002F1327 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +293,7 @@
 				4A7FCA1919BB763E002F1327 /* ViewController.m in Sources */,
 				4A7FCA1319BB763E002F1327 /* AppDelegate.m in Sources */,
 				4A7FCA0F19BB763E002F1327 /* main.m in Sources */,
+				4A7FCA5919BB7EA9002F1327 /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
